@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #461b1b;
+    transition: background-color 0.5s;
+}
+
+.theme-button {
+    float: right;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.theme-button:hover {
+    background-color: rgb(109, 4, 4);
+}
+
+.calculator input[type="button"] {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+body.night-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.calculator.night-theme {
+    background-color: #444;
+}
+
+.theme-button.night-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-button.night-theme:hover {
+    background-color: #222;
+}
+
+.calculator input[type="button"].night-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.calculator input[type="button"].night-theme:hover {
+    background-color: #222;
+}
